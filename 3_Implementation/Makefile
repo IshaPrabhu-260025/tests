@@ -13,10 +13,12 @@ src/ListDelete.c\
 src/searchedit.c\
 
 # All test source files
-TEST_SRC = src/Airlines.c\
-src/Airlines1.c\
-src/Airlines3.c\
-test/Test_Airlines.c\
+TEST_SRC = src/WELMETI.c\
+src/LoginScreen.c\
+src/AddRec.c\
+src/ListDelete.c\
+src/searchedit.c\
+test/test_medical_login.c\
 unity/unity.c\
 
 # All include folders with header files
