@@ -105,8 +105,7 @@ void Dlt_rec()
 	ek=fopen("Record2.dat","r");
 	printf("\n\n\t\t\t!!!!!!!!!!!!!! Delete Patients Record !!!!!!!!!!!!!\n");
 	printf("\n Enter Patient Name to delete: ");
-	fflush(stdin);
-	gets(name);
+	fgets(name,20,stdin);
 	name[0]=toupper(name[0]);
 
 	while (fscanf(ek,"%s %s %c %i %s %s %s %s %s", p.First_Name, p.Last_Name, &p.Gender,
