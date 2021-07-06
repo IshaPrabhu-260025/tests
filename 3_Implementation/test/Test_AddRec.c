@@ -1,9 +1,7 @@
+#include <string.h>
 #include "../inc/Medical.h"
-#include "../inc/unity.h"
-#include<string.h>
-#include "../inc/unity_internals.h"
-
-
+#include "../unity/unity.h"
+#include "../unity/unity_internals.h"
 
 /* Required by the unity test framework */
 void setUp()
