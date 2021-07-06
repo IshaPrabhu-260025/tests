@@ -19,6 +19,8 @@ src/AddRec.c\
 src/ListDelete.c\
 src/searchedit.c\
 test/test_medical_login.c\
+test/Test_AddRec.c\
+test/test_searchedit.c\
 unity/unity.c\
 
 # All include folders with header files
