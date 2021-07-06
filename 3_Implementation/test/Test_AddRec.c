@@ -1,7 +1,7 @@
-#include "Medical.h"
-#include "unity.h"
+#include "../inc/Medical.h"
+#include "../inc/unity.h"
 #include<string.h>
-#include "unityinternals.h"
+#include "../inc/unity_internals.h"
 
 
 
