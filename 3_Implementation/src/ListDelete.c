@@ -2,7 +2,7 @@
 #include<ctype.h>//se for toupper(), tolower(),etc
 #include<string.h>//Use for strcmp(),strcpy(),strlen(),etc
 #include<stdlib.h>
-#include "Medical.h"
+#include "../inc/Medical.h"
 #include <time.h>
 
 
